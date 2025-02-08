@@ -1,6 +1,6 @@
 <template>
     <div>
-        <!-- Lista użytkowników -->
+        <!-- Lista użytkowników 1111-->
         <ul v-for="user in users" :key="user.id">
             <li>{{ user.name }} - {{ user.email }}</li>
             <button @click="deleteUser(user.id)">Usuń</button>
