@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2>Dodaj użytkownika</h2>
+      <h2>Dodaj11 użytkownika</h2>
       <form @submit.prevent="addUser">
         <input v-model="name" placeholder="Imię" required />
         <input v-model="email" type="email" placeholder="Email" required />
